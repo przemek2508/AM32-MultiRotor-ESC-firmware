@@ -113,11 +113,11 @@ void playStartupTune(){
     delayMillis(200);         // duration of beep
 
     comStep(5);
-    TIM1->PSC = 40;            // next beep is higher frequency
+    TIM1->PSC = 55;            // next beep is higher frequency
 	delayMillis(200);
 
 	comStep(6);
-	TIM1->PSC = 25;         // higher again..
+	TIM1->PSC = 55;         // higher again..
 	delayMillis(200);
 
 
