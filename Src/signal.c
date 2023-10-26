@@ -14,7 +14,7 @@
 #include "sounds.h"
 #include "common.h"
 
-int max_servo_deviation = 200;
+int max_servo_deviation = 50;
 int servorawinput;
 
 uint8_t enter_calibration_count = 0;
